@@ -29,6 +29,8 @@ end
 
 def consolidate_cart(cart)
 p cart 
+array = []
+
 
 end
 
