@@ -31,7 +31,7 @@ counter = 0
 
  while counter < cart.length do   
    new_item = find_item_by_name_in_collection(cart[counter][:item], array)
-   if new_item 
+   if new_item != nil
     new_item[:count] += 1 
    else 
      new_item = {
