@@ -1,8 +1,38 @@
 def find_item_by_name_in_collection(name, collection)
-  # Implement me first!
-  #
-  # Consult README for inputs and outputs
+# if name ("WINE") is in the AoH (collection), return that hash.
+# if not, return nil
+# So I'm gonna have to use an if/else statement. Get into Array, then into the hash, then into the key, then into the value
+# p name = "WINE"
+
+# p collection  = [{:item=>"DOG FOOD"}, {:item=>"WINE"}, {:item=>"STRYCHNINE"}] <---- ARRAY
+# p collection[0] = {:item=>"DOG FOOD"} <-------------- HASH 
+# p collection[1] = {:item => "WINE"} <-------------- HASH
+# p collection[2] = {:item => "STRYCHNINE"} <-------------- HASH
+
+# p collection[0][:item] = "DOG FOOD" <---------- STRING
+# p collection[1][:item] = "WINE" <---------- STRING
+# p collection[2][:item] = "STRYCHNINE" <---------- STRING 
+
+food_counter = 0 
+  
+ while food_counter < collection.count do 
+  hash = collection[food_counter]
+   if hash[:item] = name
+    puts hash
+   else  
+    puts nil  
+   end 
+  food_counter += 1 
+ end 
+ 
+hash
 end
+# * Returns:
+#   * `nil` if no match is found
+#   * the matching `Hash` if a match is found between the desired name and a given 
+#     `Hash`'s :item key
+
+
 
 def consolidate_cart(cart)
   # Consult README for inputs and outputs
