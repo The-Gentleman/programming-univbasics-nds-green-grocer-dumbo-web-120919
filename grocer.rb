@@ -36,7 +36,7 @@ counter = 0
     new_item += 1 
    else 
      new_item = {
-      :item  
+      :item => cart[counter][:item] 
      }
    end 
  counter += 1  
