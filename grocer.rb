@@ -32,7 +32,7 @@ food_counter = 0
 
  while food_counter < cart.length do  
   food_item = cart[food_counter]
-  new_item = find_item_by_name_in_collection(cart[food_item])
+  new_item = find_item_by_name_in_collection(cart[food_item][:item])
   food_counter += 1  
  end 
 
