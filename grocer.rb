@@ -38,7 +38,8 @@ counter = 0
      new_item = {
       :item => cart[counter][:item],
       :price => cart[counter][:price],
-      :clearence => cart[counter][:clearence]
+      :clearence => cart[counter][:clearence],
+      :count => cart
      }
    end 
  counter += 1  
