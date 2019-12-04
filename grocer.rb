@@ -26,7 +26,7 @@ food_counter = 0
 end
 
 def consolidate_cart(cart)
-array = []
+new_cart = []
 counter = 0 
 
  while counter < cart.length do   
