@@ -38,7 +38,7 @@ counter = 0
       :item => cart[counter][:item],
       :price => cart[counter][:price],
       :clearence => cart[counter][:clearence],
-      :count += 1 
+      :count = 1 
      }
      array << new_item
    end 
