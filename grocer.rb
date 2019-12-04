@@ -40,7 +40,7 @@ counter = 0
       :clearence => cart[counter][:clearence],
       :count => 1 
      }
-     new_cart << new_item
+     new_cart << new_cart_item
    end 
   counter += 1  
  end 
