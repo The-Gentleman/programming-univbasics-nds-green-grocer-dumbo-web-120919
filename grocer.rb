@@ -28,9 +28,9 @@ end
 def consolidate_cart(cart)
 p cart 
 array = []
-food_counter = 0 
+counter = 0 
 
- while food_counter < cart.length do  
+ while counter < cart.length do  
   food_item = cart[food_counter]
   new_item = find_item_by_name_in_collection(cart[food_item][:item])
   food_counter += 1  
