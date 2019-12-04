@@ -30,7 +30,7 @@ end
 def consolidate_cart(cart)
 p cart 
 array = []
-
+food_counter = 0 
 
 end
 
