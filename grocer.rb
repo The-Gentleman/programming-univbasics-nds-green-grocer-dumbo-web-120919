@@ -26,7 +26,6 @@ food_counter = 0
 end
 
 def consolidate_cart(cart)
-p cart 
 array = []
 counter = 0 
 
