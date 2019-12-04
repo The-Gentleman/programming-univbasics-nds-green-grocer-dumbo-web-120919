@@ -35,7 +35,7 @@ counter = 0
    if new_item
     new_item += 1 
    else 
-     
+     new_item = {}
    end 
  counter += 1  
  end 
