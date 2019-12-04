@@ -23,7 +23,7 @@ food_counter = 0
   food_counter += 1 
  end 
  
-hash
+
 end
 # * Returns:
 #   * `nil` if no match is found
