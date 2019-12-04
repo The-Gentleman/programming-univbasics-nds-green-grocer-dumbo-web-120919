@@ -41,6 +41,7 @@ counter = 0
       :clearence => cart[counter][:clearence],
       :count => 1 
      }
+     array << new_item
    end 
  counter += 1  
  end 
