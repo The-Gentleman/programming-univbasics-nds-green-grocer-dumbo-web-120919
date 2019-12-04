@@ -17,10 +17,8 @@ food_counter = 0
   
  while food_counter < collection.count do 
   hash = collection[food_counter]
-   if hash[:item] = name
+   if hash[:item] == name
     return hash
-   else  
-    puts nil  
    end 
   food_counter += 1 
  end 
