@@ -40,12 +40,12 @@ counter = 0
       :clearence => cart[counter][:clearence],
       :count => 1 
      }
-     array << new_item
+     new_cart << new_item
    end 
   counter += 1  
  end 
 
-array
+new_cart
 end
 
 def apply_coupons(cart, coupons)
