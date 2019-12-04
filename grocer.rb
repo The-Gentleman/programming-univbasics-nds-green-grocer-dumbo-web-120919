@@ -43,9 +43,9 @@ counter = 0
      }
      array << new_item
    end 
- counter += 1  
+  counter += 1  
  end 
-
+array
 end
 
 def apply_coupons(cart, coupons)
