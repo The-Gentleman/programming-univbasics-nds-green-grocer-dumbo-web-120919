@@ -22,13 +22,8 @@ food_counter = 0
    end 
   food_counter += 1 
  end 
- 
-
 end
-# * Returns:
-#   * `nil` if no match is found
-#   * the matching `Hash` if a match is found between the desired name and a given 
-#     `Hash`'s :item key
+
 
 
 
