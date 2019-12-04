@@ -33,6 +33,7 @@ food_counter = 0
  while food_counter < cart.length do  
   food_item = cart[food_counter]
  
+  food_counter += 1  
  end 
 
 
